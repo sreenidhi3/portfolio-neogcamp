@@ -43,7 +43,7 @@ hr {
     width: max-content;
     min-width: 140px;
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
 }
 
 .secondary-link {
@@ -103,7 +103,7 @@ hr {
     color: var(--mauve);
 }
 .hero img {
-    max-width: 350px;
+    max-width: 80%;
     margin: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -113,13 +113,26 @@ hr {
 /** section **/
 
 .section {
-    padding: 2rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.section p{
+    padding: 1rem 0rem;
 }
 
 .section h2 {
     text-align: center;
     color: var(--mauve);
 }
+
+.section {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+.section .table-overflow{
+    overflow-x: auto;
+}
+
 
 .ow {
     color: var(--dark-gray);
@@ -174,4 +187,10 @@ hr {
     padding:0.5rem 3rem;
     text-align: left;
     
+}
+
+/*divs*/
+.div-center{
+    max-width: 80%;
+    margin: auto;;
 }
