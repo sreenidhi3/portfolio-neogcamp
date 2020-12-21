@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 :root {
-    --primary:#b56c8c;
-    --gray: #F3F4F6;
-    --dark-gray:#6B7280;
+    --primary:#8f4565;
+    --gray: #f8f4f7;
+    --dark-gray:#3b3d41;
+    --mauve:#44062f;
 }
 
 body {
@@ -85,6 +86,7 @@ hr {
 
 .navigation .active {
     font-weight: bold;
+    color:var(--mauve);
 }
 
 /** header **/
@@ -94,13 +96,17 @@ hr {
     display: block;
     margin: auto;
     text-align: center;
+    padding: 2rem 0rem;
 }
 
+.hero h2{
+    color: var(--mauve);
+}
 .hero img {
     max-width: 350px;
     margin: auto;
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     display: block;
 }
 
@@ -112,9 +118,11 @@ hr {
 
 .section h2 {
     text-align: center;
+    color: var(--mauve);
 }
 
 .ow {
+    color: var(--dark-gray);
     background-color: var(--gray);
 }
 
@@ -153,4 +161,17 @@ hr {
 }
 .footer i{
    padding: 0 1.5rem;
+}
+
+/* table */
+.table-center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+.table-center td{
+    padding:0.5rem 3rem;
+    text-align: left;
+    
 }
